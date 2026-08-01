@@ -1,0 +1,1200 @@
+<html lang="id"><head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Agustusan Krismaya Premiere 2026</title>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&amp;family=Playfair+Display:ital,wght@0,500;0,700;1,500&amp;display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--red:#C0392B;--red-50:#FEF2F0;--red-100:#FADBD8;--red-200:#F1948A;--red-600:#E74C3C;
+--gold:#D4A017;--gold-50:#FFF9E6;--gold-100:#FCF0C8;
+--blue:#2563EB;--blue-50:#EFF6FF;--blue-100:#DBEAFE;
+--green:#059669;--green-50:#ECFDF5;--green-100:#D1FAE5;
+--purple:#7C3AED;--purple-50:#F5F3FF;--purple-100:#EDE9FE;
+--teal:#0D9488;--teal-50:#F0FDFA;--teal-100:#CCFBF1;
+--coral:#EA580C;--coral-50:#FFF7ED;--coral-100:#FFEDD5;
+--pink:#DB2777;--pink-50:#FDF2F8;--pink-100:#FCE7F3;
+--slate-50:#F8FAFC;--slate-100:#F1F5F9;--slate-200:#E2E8F0;--slate-300:#CBD5E1;
+--slate-400:#94A3B8;--slate-500:#64748B;--slate-600:#475569;--slate-700:#334155;--slate-800:#1E293B;--slate-900:#0F172A;
+--radius:12px;--radius-lg:20px;
+}
+body{font-family:'Plus Jakarta Sans',sans-serif;background:#fff;color:var(--slate-800);line-height:1.7;-webkit-font-smoothing:antialiased}
+
+/* HERO */
+.hero{position:relative;overflow:hidden;padding:44px 40px 32px;text-align:center;background:#fff;border-bottom:1px solid var(--slate-200)}
+.hero::before{content:'17';position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);font-size:clamp(200px,30vw,400px);font-weight:800;color:var(--red-50);z-index:0;line-height:1;letter-spacing:-10px}
+.hero>*{position:relative;z-index:1}
+.hero-eyebrow{font-size:12px;font-weight:600;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:10px;display:flex;align-items:center;justify-content:center;gap:12px}
+.hero-eyebrow::before,.hero-eyebrow::after{content:'';width:40px;height:1px;background:var(--red-200)}
+.hero h1{font-family:'Playfair Display',serif;font-size:clamp(30px,4.5vw,52px);font-weight:700;color:var(--slate-900);line-height:1.1;margin-bottom:8px}
+.hero h1 span{color:var(--red);font-style:italic}
+.hero-sub{font-size:15px;color:var(--slate-500);max-width:600px;margin:0 auto 20px;font-weight:300}
+.hero-stats{display:flex;justify-content:center;gap:36px;flex-wrap:wrap}
+.stat{text-align:center}
+.stat-num{font-size:28px;font-weight:800;color:var(--slate-900)}
+.stat-label{font-size:11px;color:var(--slate-400);text-transform:uppercase;letter-spacing:1.5px;font-weight:600}
+
+/* SECTION */
+.container{max-width:960px;margin:0 auto;padding:0 24px}
+section{padding:44px 0}
+section+section{border-top:1px solid var(--slate-100)}
+.section-tag{font-size:10px;font-weight:700;letter-spacing:3px;text-transform:uppercase;color:var(--red);margin-bottom:6px}
+.section-title{font-family:'Playfair Display',serif;font-size:clamp(22px,3.2vw,32px);font-weight:700;color:var(--slate-900);margin-bottom:6px;line-height:1.2}
+.section-desc{font-size:14px;color:var(--slate-500);max-width:640px;margin-bottom:24px;font-weight:300;line-height:1.6}
+.section-head-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.dl-btn{flex-shrink:0;font-family:'Plus Jakarta Sans',sans-serif;font-size:12px;font-weight:600;color:var(--slate-600);background:#fff;border:1px solid var(--slate-300);border-radius:20px;padding:8px 16px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.dl-btn:hover{border-color:var(--red);color:var(--red);background:var(--red-50)}
+.dl-btn:disabled{opacity:.5;cursor:wait}
+.dl-section{scroll-margin-top:52px}
+
+/* RINGKASAN */
+.ring-table{border:1px solid var(--slate-200);border-radius:var(--radius-lg);overflow:hidden;background:#fff}
+.ring-row{display:grid;grid-template-columns:40px 130px 1fr 150px;align-items:center;gap:12px;padding:10px 16px;border-bottom:1px solid var(--slate-100)}
+.ring-row:last-child{border-bottom:none}
+.ring-row.ring-header{background:var(--slate-50);font-size:10px;font-weight:700;letter-spacing:1px;text-transform:uppercase;color:var(--slate-400);padding:8px 16px}
+.ring-icon{width:28px;height:28px;border-radius:8px;display:flex;align-items:center;justify-content:center;font-size:14px}
+.ring-tanggal{font-size:12px;font-weight:700}
+.ring-jenis{font-size:13px;font-weight:600;color:var(--slate-800)}
+.ring-waktu{font-size:12px;color:var(--slate-500)}
+@media(max-width:640px){.ring-row{grid-template-columns:32px 1fr;grid-template-areas:"icon jenis" "icon tanggal" "icon waktu";row-gap:2px}.ring-row.ring-header{display:none}.ring-icon{grid-area:icon}.ring-jenis{grid-area:jenis}.ring-tanggal{grid-area:tanggal;font-size:11px}.ring-waktu{grid-area:waktu;font-size:11px}}
+
+/* STORYLINE — Action cards per PJ */
+.phase-block{margin-bottom:28px}
+.phase-header{display:flex;align-items:center;gap:12px;margin-bottom:12px;padding-bottom:10px;border-bottom:2px solid var(--slate-100)}
+.phase-num{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:15px;color:#fff;flex-shrink:0}
+.phase-info{flex:1}
+.phase-name{font-family:'Playfair Display',serif;font-size:17px;font-weight:700;color:var(--slate-900)}
+.phase-date{font-size:11px;font-weight:600;color:var(--slate-400);letter-spacing:.5px}
+.pj-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+@media(max-width:700px){.pj-grid{grid-template-columns:1fr}}
+.pj-card{border:1px solid var(--slate-200);border-radius:var(--radius);overflow:hidden;transition:box-shadow .2s}
+.pj-card:hover{box-shadow:0 6px 24px rgba(0,0,0,.05)}
+.pj-card-head{display:flex;align-items:center;gap:8px;padding:8px 12px;border-bottom:1px solid var(--slate-100)}
+.pj-avatar{width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:11px;color:#fff;flex-shrink:0}
+.pj-meta{flex:1}
+.pj-name{font-size:12.5px;font-weight:700;color:var(--slate-900)}
+.pj-role{font-size:10px;color:var(--slate-400);font-weight:600;text-transform:uppercase;letter-spacing:.5px}
+.pj-tasks{padding:8px 12px;list-style:none}
+.pj-tasks li{display:flex;align-items:flex-start;gap:8px;padding:3px 0;font-size:12px;color:var(--slate-600);line-height:1.45}
+.pj-tasks li::before{content:'';flex-shrink:0;width:14px;height:14px;border-radius:3px;border:2px solid var(--slate-300);margin-top:1px}
+.pj-card.full-width{grid-column:1/-1}
+.pj-note{font-size:11px;color:var(--slate-400);padding:6px 12px;background:var(--slate-50);border-top:1px solid var(--slate-100);font-style:italic}
+
+/* VERTICAL TIMELINE */
+.vtl{position:relative}
+.vtl-line{position:absolute;left:16px;top:0;bottom:0;width:3px;background:linear-gradient(180deg,var(--red),var(--coral),var(--gold),var(--green),var(--teal),var(--purple),var(--red));border-radius:3px}
+.vtl-phase{position:relative;padding-left:46px;margin-bottom:24px}
+.vtl-dot{position:absolute;left:6px;top:2px;width:20px;height:20px;border-radius:50%;border:3px solid #fff;box-shadow:0 0 0 2px currentColor,0 4px 12px rgba(0,0,0,.1);z-index:2}
+.vtl-date-badge{display:inline-block;font-size:11px;font-weight:700;letter-spacing:1px;text-transform:uppercase;padding:3px 12px;border-radius:20px;margin-bottom:6px}
+.vtl-phase-title{font-family:'Playfair Display',serif;font-size:16px;font-weight:700;color:var(--slate-900);margin-bottom:4px}
+.vtl-phase-sub{font-size:11px;color:var(--slate-500);margin-bottom:10px}
+.vtl-card{background:#fff;border:1px solid var(--slate-200);border-radius:var(--radius);overflow:hidden;transition:box-shadow .2s}
+.vtl-card:hover{box-shadow:0 8px 30px rgba(0,0,0,.06)}
+.vtl-card-header{padding:10px 14px;font-size:12px;font-weight:700;color:#fff;display:flex;align-items:center;gap:6px}
+.vtl-card-body{padding:10px 14px}
+.vtl-item{display:flex;align-items:flex-start;gap:8px;padding:3px 0;font-size:12px;color:var(--slate-700)}
+.vtl-divider{height:1px;background:var(--slate-100);margin:5px 0}
+.vtl-pj{font-size:11px;color:var(--slate-400);padding:7px 14px;background:var(--slate-50);border-top:1px solid var(--slate-100)}
+
+/* ORG CHART */
+.org{display:flex;flex-direction:column;gap:12px}
+.org-level{display:flex;flex-direction:column;align-items:center;gap:8px}
+.org-row{display:flex;justify-content:center;gap:10px;flex-wrap:wrap}
+.org-card{background:#fff;border:1px solid var(--slate-200);border-radius:var(--radius);padding:10px 14px;min-width:160px;text-align:center;position:relative;transition:all .2s}
+.org-card:hover{box-shadow:0 8px 24px rgba(0,0,0,.06);transform:translateY(-2px)}
+.org-card.vacant{border-style:dashed;border-color:var(--red-200);background:var(--red-50)}
+.org-card.vacant .org-name{color:var(--red);font-style:italic}
+.org-role{font-size:10px;font-weight:700;letter-spacing:1.5px;text-transform:uppercase;margin-bottom:2px}
+.org-name{font-size:13px;font-weight:600;color:var(--slate-900)}
+.org-unit{font-size:11px;color:var(--slate-400);margin-top:1px}
+.org-badge{position:absolute;top:-7px;right:-7px;width:17px;height:17px;border-radius:50%;font-size:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700}
+.org-connector{width:2px;height:12px;background:var(--slate-200);margin:0 auto}
+.org-section{margin-bottom:22px}
+.org-section-title{font-size:11px;font-weight:700;letter-spacing:2px;text-transform:uppercase;color:var(--slate-400);text-align:center;margin-bottom:12px;display:flex;align-items:center;justify-content:center;gap:12px}
+.org-section-title::before,.org-section-title::after{content:'';width:60px;height:1px;background:var(--slate-200)}
+
+/* SARAN */
+.saran-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:700px){.saran-grid{grid-template-columns:1fr}}
+.saran-card{border:1px solid var(--slate-200);border-radius:var(--radius);overflow:hidden;transition:box-shadow .2s}
+.saran-card:hover{box-shadow:0 8px 24px rgba(0,0,0,.06)}
+.saran-header{padding:9px 14px;font-size:12px;font-weight:700;color:#fff;display:flex;align-items:center;gap:6px}
+.saran-body{padding:10px 14px}
+.saran-item{display:flex;align-items:flex-start;gap:8px;padding:3px 0;font-size:12px;color:var(--slate-600);line-height:1.45}
+.saran-item .num{flex-shrink:0;width:18px;height:18px;border-radius:50%;font-size:10px;font-weight:700;display:flex;align-items:center;justify-content:center;color:#fff}
+
+/* FOOTER */
+footer{background:var(--slate-900);color:var(--slate-400);text-align:center;padding:28px 24px}
+footer .brand{font-family:'Playfair Display',serif;font-size:20px;color:#fff;margin-bottom:6px}
+footer p{font-size:13px}
+
+/* NAV */
+.nav{position:sticky;top:0;z-index:100;background:rgba(255,255,255,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--slate-100);padding:9px 24px;display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.dl-section{scroll-margin-top:44px}
+.section-head-row{display:flex;justify-content:space-between;align-items:flex-start;gap:16px;flex-wrap:wrap}
+.dl-btn{flex-shrink:0;font-family:'Plus Jakarta Sans',sans-serif;font-size:11px;font-weight:600;color:var(--slate-600);background:#fff;border:1px solid var(--slate-300);border-radius:20px;padding:6px 14px;cursor:pointer;transition:all .15s;white-space:nowrap}
+.dl-btn:hover{border-color:var(--red);color:var(--red);background:var(--red-50)}
+.dl-btn:disabled{opacity:.5;cursor:wait}
+.nav a{font-size:12px;font-weight:600;letter-spacing:1px;text-transform:uppercase;color:var(--slate-500);text-decoration:none;transition:color .2s;padding:4px 0}
+.nav a:hover{color:var(--red)}
+
+@media print{.nav{display:none}.dl-btn{display:none}section{padding:24px 0;page-break-inside:avoid}}
+@media(max-width:600px){.hero{padding:32px 20px 24px}.hero-stats{gap:20px}section{padding:32px 0}.section-head-row{flex-direction:column}}
+</style>
+</head>
+<body>
+
+<nav class="nav">
+<a href="#ringkasan">Ringkasan</a>
+<a href="#struktur">Struktur</a>
+<a href="#storyline">Tugas per PJ</a>
+<a href="#timeline">Timeline</a>
+<a href="#saran">Saran</a>
+</nav>
+
+<!-- HERO -->
+<header class="hero">
+<div class="hero-eyebrow">Krismaya Premiere</div>
+<h1>Agustusan <span>2026</span></h1>
+<p class="hero-sub">Merayakan 81 tahun kemerdekaan Republik Indonesia bersama seluruh warga Krismaya Premiere</p>
+<div class="hero-stats">
+<div class="stat"><div class="stat-num">17</div><div class="stat-label">Hari Puncak</div></div>
+<div class="stat"><div class="stat-num">8</div><div class="stat-label">Lomba Anak</div></div>
+<div class="stat"><div class="stat-num">3</div><div class="stat-label">Lomba Dewasa</div></div>
+<div class="stat"><div class="stat-num">6</div><div class="stat-label">Fase Kegiatan</div></div>
+</div>
+</header>
+
+<!-- ============ RINGKASAN ACARA ============ -->
+<section id="ringkasan" class="dl-section">
+<div class="container">
+<div class="section-head-row">
+<div>
+<div class="section-tag">Overview</div>
+<div class="section-title">Ringkasan Rangkaian Acara</div>
+<p class="section-desc">Gambaran singkat seluruh jenis kegiatan dan waktunya, dari persiapan sampai malam puncak kemerdekaan.</p>
+</div>
+<button class="dl-btn" data-target="ringkasan-capture">⬇ Download Gambar</button>
+</div>
+<div class="ring-table" id="ringkasan-capture">
+<div class="ring-row ring-header"><div></div><div>Tanggal</div><div>Jenis Acara</div><div>Waktu</div></div>
+<div class="ring-row"><div class="ring-icon" style="background:var(--blue-50);color:var(--blue)">🇮🇩</div><div class="ring-tanggal" style="color:var(--blue)">2 Agt</div><div class="ring-jenis">Pemasangan Umbul-Umbul Bendera di Dalam Perumahan</div><div class="ring-waktu">Minggu, 2 Agustus 2026</div></div>
+<div class="ring-row"><div class="ring-icon" style="background:var(--coral-100);color:var(--coral)">🏸</div><div class="ring-tanggal" style="color:var(--coral)">8 Agt</div><div class="ring-jenis">Lomba Olahraga (Bapak-Ibu: Badminton, Voli; Anak-anak: Futsal)</div><div class="ring-waktu">Sabtu, 8 Agustus 2026</div></div>
+<div class="ring-row"><div class="ring-icon" style="background:var(--teal-50);color:var(--teal)">🕌</div><div class="ring-tanggal" style="color:var(--teal)">16 Agt</div><div class="ring-jenis">Malam Renungan Kemerdekaan</div><div class="ring-waktu">Minggu malam, 16 Agustus 2026</div></div>
+<div class="ring-row"><div class="ring-icon" style="background:var(--red-50);color:var(--red)">🎯</div><div class="ring-tanggal" style="color:var(--red)">17 Agt</div><div class="ring-jenis">Lomba 17 Agustus (Anak-anak dan Ibu-ibu)</div><div class="ring-waktu">Senin, 17 Agustus — Pagi s.d. Siang</div></div>
+<div class="ring-row"><div class="ring-icon" style="background:var(--red-50);color:var(--red)">🎉</div><div class="ring-tanggal" style="color:var(--red)">17 Agt</div><div class="ring-jenis">Malam Puncak Kemerdekaan</div><div class="ring-waktu">Senin, 17 Agustus — Malam</div></div>
+</div>
+</div></section>
+
+<!-- ============ STRUKTUR PANITIA ============ -->
+<section id="struktur" class="dl-section">
+<div class="container">
+<div class="section-head-row">
+<div>
+<div class="section-tag">Organisasi</div>
+<div class="section-title">Struktur panitia</div>
+<p class="section-desc">Susunan panitia beserta posisi yang masih kosong dan perlu segera diisi.</p>
+</div>
+<button class="dl-btn" data-target="struktur-capture">⬇ Download Gambar</button>
+</div>
+
+<div class="org" id="struktur-capture">
+
+<div class="org-section">
+<div class="org-section-title">Panitia inti</div>
+<div class="org-level">
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--red)">
+<div class="org-role" style="color:var(--red)">Ketua</div>
+<div class="org-name">Bapak Aos</div>
+<div class="org-unit">C15</div>
+</div>
+</div>
+<div class="org-connector"></div>
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--blue)">
+<div class="org-role" style="color:var(--blue)">Wakil ketua</div>
+<div class="org-name">Bapak Hadi</div>
+<div class="org-unit">A26</div>
+</div>
+</div>
+<div class="org-connector"></div>
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--green)">
+<div class="org-role" style="color:var(--green)">Sekretaris</div>
+<div class="org-name">Bapak Cecep</div>
+<div class="org-unit">C32</div>
+</div>
+<div class="org-card" style="border-top:3px solid var(--gold)">
+<div class="org-role" style="color:var(--gold)">Bendahara</div>
+<div class="org-name">Bapak Rizal</div>
+<div class="org-unit">A18</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="org-section">
+<div class="org-section-title">Seksi-seksi</div>
+<div class="org-level" style="gap:16px">
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--purple)">
+<div class="org-role" style="color:var(--purple)">Seksi acara</div>
+<div class="org-name">Bapak Hugo</div>
+<div class="org-unit">A24</div>
+</div>
+<div class="org-card" style="border-top:3px solid var(--coral)">
+<div class="org-role" style="color:var(--coral)">Koordinator lomba</div>
+<div class="org-name">Bapak Rahman</div>
+<div class="org-unit">—</div>
+</div>
+</div>
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--teal)">
+<div class="org-role" style="color:var(--teal)">Perlengkapan</div>
+<div class="org-name">Bp. Awan, Bp. Rizal, Bp. Agil</div>
+<div class="org-unit">C27 · A18 · C31</div>
+</div>
+</div>
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--pink)">
+<div class="org-role" style="color:var(--pink)">Konsumsi</div>
+<div class="org-name">Mama Qori,&nbsp;<span style="font-size: 14px; text-align: start;">Mama Andin, Dinda</span></div>
+<div class="org-unit">B10 · C14 · C27</div>
+</div>
+<div class="org-card" style="border-top:3px solid var(--gold)">
+<div class="org-role" style="color:var(--gold)">Hadiah</div>
+<div class="org-name">Mama Yusuf, Mama Raisha, Mama Key, Mama Nayla</div>
+<div class="org-unit">C5 · C34 · A24 ·C17</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="org-section">
+<div class="org-section-title">PJ per cabang lomba</div>
+<div class="org-level" style="gap:16px">
+<div class="org-row">
+<div class="org-card" style="border-top:3px solid var(--coral)">
+<div class="org-role" style="color:var(--coral)">Badminton &amp; voli</div>
+<div class="org-name">Bapak Dwi</div>
+<div class="org-unit">A17</div>
+</div>
+<div class="org-card" style="border-top:3px solid var(--coral)">
+<div class="org-role" style="color:var(--coral)">Gapleh &amp; futsal anak</div>
+<div class="org-name">Bapak Hadi</div>
+<div class="org-unit">A26</div>
+</div>
+<div class="org-card" style="border-top:3px solid var(--coral)">
+<div class="org-role" style="color:var(--coral)">Pengajian anak</div>
+<div class="org-name">Mama Fauzan</div>
+<div class="org-unit">C15</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="org-section">
+<div class="org-section-title" style="color:var(--red)">⚠ Posisi yang masih kosong</div>
+<div class="org-level" style="gap:16px">
+<div class="org-row">
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">MC / Pembawa acara</div>
+<div class="org-name">1. Malam Renungan : Pak Cecep</div><div class="org-name">2. Lomba : Pak Rahman</div>
+<div class="org-unit">Lomba siang + malam puncak + malam renungan</div>
+</div>
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Seksi dokumentasi</div>
+<div class="org-name">1. Pak Luthfi A5</div><div class="org-name">2. Joshua&nbsp;</div>
+<div class="org-unit">Foto &amp; video semua rangkaian acara</div>
+</div>
+</div>
+<div class="org-row">
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Seksi P3K / kesehatan</div>
+<div class="org-name">Ibu-ibu&nbsp; (sediakan peralatan)</div>
+<div class="org-unit">Posko kesehatan saat lomba fisik</div>
+</div>
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Seksi keamanan &amp; parkir</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Pengaturan lalu lintas &amp; parkir</div>
+</div>
+</div>
+<div class="org-row">
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Seksi dekorasi</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Umbul-umbul, backdrop, panggung</div>
+</div>
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Wasit / juri lomba</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Per cabang: badminton, voli, gapleh, futsal</div>
+</div>
+</div>
+<div class="org-row">
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Seksi kebersihan</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Bersih-bersih sebelum &amp; setelah acara</div>
+</div>
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--coral)">?</div>
+<div class="org-role" style="color:var(--coral)">Penceramah</div>
+<div class="org-name">Belum dikonfirmasi</div>
+<div class="org-unit">Ceramah malam renungan 16 Agustus</div>
+</div>
+</div>
+<div class="org-row">
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Operator sound system</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Pegang mixer &amp; atur volume selama acara</div>
+</div>
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Bumper sound</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Siapkan jingle/bumper pembuka tiap sesi acara</div>
+</div>
+<div class="org-card vacant">
+<div class="org-badge" style="background:var(--red)">!</div>
+<div class="org-role" style="color:var(--red)">Backsound</div>
+<div class="org-name">Belum ditunjuk</div>
+<div class="org-unit">Musik latar untuk lomba &amp; penampilan panggung</div>
+</div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ============ STORYLINE — TUGAS PER PJ PER FASE ============ -->
+<section id="storyline" class="dl-section">
+<div class="container">
+<div class="section-head-row">
+<div>
+<div class="section-tag">Action plan</div>
+<div class="section-title">Siapa mengerjakan apa</div>
+<p class="section-desc">Breakdown tugas per penanggung jawab di setiap fase. Setiap orang tahu apa yang harus dikerjakan, kapan, dan hasilnya apa.</p>
+</div>
+<button class="dl-btn" data-target="storyline-capture">⬇ Download Gambar</button>
+</div>
+
+<div id="storyline-capture">
+<!-- FASE 1 -->
+<div class="phase-block">
+<div class="phase-header">
+<div class="phase-num" style="background:var(--blue)">1</div>
+<div class="phase-info">
+<div class="phase-name">Persiapan &amp; koordinasi awal</div>
+<div class="phase-date">Sabtu – Jumat, 1 – 7 Agustus</div>
+</div>
+</div>
+<div class="pj-grid">
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--red)">AO</div>
+<div class="pj-meta"><div class="pj-name">Bapak Aos (C15)</div><div class="pj-role">Ketua</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Pimpin rapat perdana panitia (1 Agt)</li>
+<li>Tetapkan susunan panitia final &amp; bagi tugas</li>
+<li>Koordinasi izin penggunaan area ke pengelola cluster</li>
+<li>Approve RAB yang disusun bendahara</li>
+<li>Pantau progres semua seksi via grup WA panitia</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--blue)">HD</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hadi (A26)</div><div class="pj-role">Wakil ketua</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Backup ketua dalam memimpin rapat</li>
+<li>Koordinasi langsung dengan semua PJ seksi</li>
+<li>Survei &amp; ukur lapangan untuk voli, badminton, futsal</li>
+<li>Siapkan meja &amp; papan gapleh</li>
+<li>Buat bracket/skema pertandingan gapleh &amp; futsal</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--green)">CF</div>
+<div class="pj-meta"><div class="pj-name">Bapak Cecep (C32)</div><div class="pj-role">Sekretaris</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Catat notulen rapat perdana</li>
+<li>Buat &amp; sebar surat edaran / pamflet jadwal ke warga</li>
+<li>Buat formulir pendaftaran lomba dewasa &amp; futsal anak</li>
+<li>Rekap peserta yang mendaftar per cabang</li>
+<li>Arsipkan semua dokumen panitia</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--gold)">RZ</div>
+<div class="pj-meta"><div class="pj-name">Bapak Rizal (A18)</div><div class="pj-role">Bendahara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Susun RAB (Rencana Anggaran Biaya) per pos</li>
+<li>Tentukan besaran iuran per KK, mulai tagih (2 Agt)</li>
+<li>Siapkan kwitansi &amp; buku kas</li>
+<li>Cari potensi sponsor dari warga pengusaha</li>
+<li>Catat semua pemasukan &amp; pengeluaran</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--teal)">AW</div>
+<div class="pj-meta"><div class="pj-name">Bp. Awan (C27) &amp; Bp. Agil (C31) &amp; Mas Joshua (C9)</div><div class="pj-role">Perlengkapan</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Survei harga &amp; booking sound system + speaker</li>
+<li>Survei tenda cadangan (untuk jaga-jaga hujan)</li>
+<li>Inventarisasi perlengkapan yang bisa dipinjam dari warga</li>
+<li>Buat daftar belanja perlengkapan lomba 17-an</li>
+<li>Cek ketersediaan net badminton, net voli, gawang futsal</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">HD</div>
+<div class="pj-meta"><div class="pj-name">Mama Yusuf, Mama Raisha, Mama Key, Mama Nayla</div><div class="pj-role">Hadiah</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Hitung jumlah hadiah yang dibutuhkan per cabang</li>
+<li>Riset &amp; bandingkan harga hadiah (online + toko)</li>
+<li>Ajukan budget hadiah ke bendahara untuk approval</li>
+<li>Belanja hadiah tahap 1 (hadiah utama / piala)</li>
+<li>Siapkan juga hadiah hiburan / doorprize</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--coral)">DW</div>
+<div class="pj-meta"><div class="pj-name">Bapak Dwi (A17)</div><div class="pj-role">PJ Badminton &amp; Voli</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Setup net badminton &amp; voli di lapangan (6–7 Agt)</li>
+<li>Buat bracket pertandingan badminton &amp; voli</li>
+<li>Tentukan aturan main (skor, sistem gugur/pool)</li>
+<li>Siapkan skor papan / pencatat skor</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--purple)">HG</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hugo (A24)</div><div class="pj-role">Seksi acara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Draft susunan acara malam renungan &amp; malam puncak</li>
+<li>Identifikasi anak-anak yang akan tampil (tari, nyanyi, drama)</li>
+<li>Koordinasi dengan Mama Fauzan untuk jadwal latihan</li>
+<li>Cari &amp; konfirmasi ustadz untuk ceramah malam renungan</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<!-- FASE 2 -->
+<div class="phase-block">
+<div class="phase-header">
+<div class="phase-num" style="background:var(--coral)">2</div>
+<div class="phase-info">
+<div class="phase-name">Lomba dewasa &amp; futsal anak</div>
+<div class="phase-date">Sabtu – Minggu, 8 – 9 Agustus</div>
+</div>
+</div>
+<div class="pj-grid">
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--coral)">RM</div>
+<div class="pj-meta"><div class="pj-name">Bapak Rahman</div><div class="pj-role">Koordinator lomba</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Koordinasi jadwal &amp; urutan pertandingan semua cabang</li>
+<li>Pastikan semua peserta hadir sesuai jadwal</li>
+<li>Pantau jalannya pertandingan, selesaikan sengketa</li>
+<li>Rekap hasil &amp; pemenang setiap cabang</li>
+<li>Serahkan data pemenang ke tim hadiah</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--coral)">DW</div>
+<div class="pj-meta"><div class="pj-name">Bapak Dwi (A17)</div><div class="pj-role">PJ Badminton &amp; Voli</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Jadi wasit / atur wasit untuk badminton (Sabtu pagi)</li>
+<li>Jadi wasit / atur wasit untuk voli (Sabtu siang/sore)</li>
+<li>Catat skor dan tentukan pemenang tiap babak</li>
+<li>Lanjutkan semifinal/final di hari Minggu jika perlu</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--coral)">HD</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hadi (A26)</div><div class="pj-role">PJ Gapleh &amp; Futsal anak</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Atur pertandingan gapleh bapak-bapak (Sabtu)</li>
+<li>Jadi wasit / atur wasit futsal anak-anak (Minggu)</li>
+<li>Pastikan lapangan aman untuk anak-anak bermain</li>
+<li>Catat skor dan tentukan juara per cabang</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">KN</div>
+<div class="pj-meta"><div class="pj-name">Mama Qori (B10), Mama Andin (C14), Dinda (C27)</div><div class="pj-role">Konsumsi</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Siapkan air minum &amp; snack untuk peserta lomba</li>
+<li>Koordinasi makan siang panitia &amp; peserta</li>
+<li>Pastikan stok air minum cukup sepanjang hari</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<!-- FASE 3 -->
+<div class="phase-block">
+<div class="phase-header">
+<div class="phase-num" style="background:var(--green)">3</div>
+<div class="phase-info">
+<div class="phase-name">Latihan penampilan &amp; persiapan puncak</div>
+<div class="phase-date">Senin – Jumat, 10 – 14 Agustus</div>
+</div>
+</div>
+<div class="pj-grid">
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--purple)">HG</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hugo (A24)</div><div class="pj-role">Seksi acara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Atur jadwal latihan harian: tarian, nyanyi, drama/kabaret</li>
+<li>Pilih lagu &amp; musik untuk penampilan anak-anak</li>
+<li>Koordinasi kostum / seragam penampilan</li>
+<li>Finalisasi rundown malam renungan &amp; malam puncak</li>
+<li>Pilih &amp; brief MC untuk setiap sesi acara</li>
+<li>Cek kesiapan semua penampilan (review latihan terakhir)</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--green)">BS</div>
+<div class="pj-meta"><div class="pj-name">Mama Fauzan (C15)</div><div class="pj-role">PJ Pengajian anak</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Latih anak-anak pengajian untuk penampilan 16 Agt malam</li>
+<li>Tentukan materi bacaan / hafalan yang ditampilkan</li>
+<li>Koordinasi jadwal latihan dengan orang tua anak</li>
+<li>Pastikan anak-anak siap &amp; percaya diri tampil</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--teal)">AW</div>
+<div class="pj-meta"><div class="pj-name">Bp. Awan,&nbsp; Bp. Rizal, Bp. Agil, Mas Joshua&nbsp;</div><div class="pj-role">Perlengkapan</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Belanja semua properti lomba 17-an sesuai daftar:
+  botol, bendera kecil, pensil, kerupuk, tali, kardus besar,
+  pepaya, koin, tepung, baskom, pisang</li>
+<li>Cek &amp; test sound system, mic, kabel</li>
+<li>Siapkan kursi lipat untuk joged kursi (min. 10–15)</li>
+<li>Siapkan tiang/bambu untuk lomba makan kerupuk</li>
+<li>Cek stok tenda, terpal, dan perlengkapan cadangan hujan</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">KN</div>
+<div class="pj-meta"><div class="pj-name">Mama Qori (B10), Mama Andin (C14), Dinda (C27)</div><div class="pj-role">Konsumsi</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Hitung jumlah porsi tumpeng malam renungan (16 Agt)</li>
+<li>Tentukan menu konsumsi malam puncak (17 Agt)</li>
+<li>Buat daftar belanja bahan makanan</li>
+<li>Koordinasi ibu-ibu yang bantu masak tumpeng</li>
+<li>Ajukan budget konsumsi ke bendahara</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">HD</div>
+<div class="pj-meta"><div class="pj-name">Mama Yusuf, Mama Raisha, Mama Key, Mama Nayla</div><div class="pj-role">Hadiah</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Belanja hadiah tahap 2 (hadiah lomba anak 17-an)</li>
+<li>Bungkus semua hadiah &amp; beri label per cabang lomba</li>
+<li>Siapkan hadiah hiburan / doorprize malam puncak</li>
+<li>Serahkan daftar hadiah ke seksi acara (Bp. Hugo)</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--gold)">RZ</div>
+<div class="pj-meta"><div class="pj-name">Bapak Rizal (A18)</div><div class="pj-role">Bendahara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Cairkan dana untuk belanja perlengkapan &amp; konsumsi</li>
+<li>Tagih sisa iuran warga yang belum bayar</li>
+<li>Update laporan keuangan (pemasukan vs pengeluaran)</li>
+<li>Simpan semua struk belanja untuk pertanggungjawaban</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<!-- FASE 4 -->
+<div class="phase-block">
+<div class="phase-header">
+<div class="phase-num" style="background:var(--purple)">4</div>
+<div class="phase-info">
+<div class="phase-name">Dekorasi, setup &amp; gladi resik</div>
+<div class="phase-date">Sabtu, 15 Agustus</div>
+</div>
+</div>
+<div class="pj-grid">
+
+<div class="pj-card full-width">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--teal)">AW</div>
+<div class="pj-meta"><div class="pj-name">Bp. Awan (C27), Bp. Rizal (A18), Bp. Agil (C31), Mas Joshua (C9)</div><div class="pj-role">Perlengkapan — full team</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Pasang umbul-umbul &amp; bendera merah putih sepanjang jalan perumahan (semua warga)</li>
+<li>Bangun &amp; dekorasi panggung sederhana + backdrop</li>
+<li>Setup sound system, cek mic, cek speaker, cek kabel — test semua</li>
+<li>Tata kursi penonton untuk area malam renungan &amp; malam puncak</li>
+<li>Pasang tenda / terpal di area lomba &amp; penonton</li>
+<li>Letakkan semua properti lomba di tempat yang mudah dijangkau</li>
+</ul>
+<div class="pj-note">Target: semua setup fisik selesai sebelum jam 3 sore agar sore bisa gladi resik</div>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--purple)">HG</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hugo (A24)</div><div class="pj-role">Seksi acara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Pimpin gladi resik semua penampilan anak (sore)</li>
+<li>Test urutan acara &amp; transisi antar penampilan</li>
+<li>Brief MC tentang rundown &amp; cue perpindahan acara</li>
+<li>Final check: musik, mic, pencahayaan panggung</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">KN</div>
+<div class="pj-meta"><div class="pj-name">Mama Qori (B10), Mama Andin (C14), Dinda (C27)</div><div class="pj-role">Konsumsi</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Belanja semua bahan makanan untuk 16 &amp; 17 Agt</li>
+<li>Mulai persiapan tumpeng untuk malam renungan (16 Agt)</li>
+<li>Koordinasi dapur: siapa masak apa, jam berapa</li>
+<li>Siapkan piring, gelas, sendok, dan tisu secukupnya</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<!-- FASE 5 -->
+<div class="phase-block">
+<div class="phase-header">
+<div class="phase-num" style="background:var(--teal)">5</div>
+<div class="phase-info">
+<div class="phase-name">Malam renungan kemerdekaan</div>
+<div class="phase-date">Minggu malam, 16 Agustus</div>
+</div>
+</div>
+<div class="pj-grid">
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--red)">AO</div>
+<div class="pj-meta"><div class="pj-name">Bapak Aos (C15)</div><div class="pj-role">Ketua + PJ malam renungan</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Buka acara &amp; persilakan Pak RT untuk sambutan</li>
+<li>Pastikan ustadz hadir &amp; siap untuk ceramah</li>
+<li>Koordinasi keseluruhan jalannya acara malam</li>
+<li>Tutup acara &amp; ingatkan warga untuk hadir besok pagi</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--purple)">HG</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hugo (A24)</div><div class="pj-role">Seksi acara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Jalankan rundown acara: sambutan → ceramah → tumpeng → penampilan</li>
+<li>Cue MC untuk setiap perpindahan sesi</li>
+<li>Atur penampilan anak-anak pengajian di waktu yang tepat</li>
+<li>Pastikan sound &amp; mic berfungsi sepanjang acara</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--green)">BS</div>
+<div class="pj-meta"><div class="pj-name">Mama Fauzan (C15)</div><div class="pj-role">PJ Pengajian anak</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Kumpulkan &amp; siapkan anak-anak sebelum acara dimulai</li>
+<li>Dampingi anak-anak di belakang panggung</li>
+<li>Pastikan penampilan berjalan lancar</li>
+<li>Koordinasi dengan orang tua untuk jemput setelah tampil</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">KN</div>
+<div class="pj-meta"><div class="pj-name">Mama Qori (B10), Mama Andin (C14), Dinda (C27)</div><div class="pj-role">Konsumsi</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Sajikan tumpeng di waktu yang tepat (setelah ceramah)</li>
+<li>Distribusi makanan ke semua warga yang hadir</li>
+<li>Siapkan air minum untuk seluruh peserta</li>
+<li>Bersihkan area makan setelah selesai</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+<!-- FASE 6 -->
+<div class="phase-block">
+<div class="phase-header">
+<div class="phase-num" style="background:var(--red)">6</div>
+<div class="phase-info">
+<div class="phase-name">Hari Kemerdekaan — 17 Agustus 2026</div>
+<div class="phase-date">Senin, pagi – siang – malam</div>
+</div>
+</div>
+<div class="pj-grid">
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--red)">AO</div>
+<div class="pj-meta"><div class="pj-name">Bapak Aos (C15)</div><div class="pj-role">Ketua</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Pantau keseluruhan jalannya lomba siang hari</li>
+<li>Buka malam puncak dengan sambutan ketua panitia</li>
+<li>Tutup rangkaian Agustusan 2026 dengan doa bersama</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--coral)">RM</div>
+<div class="pj-meta"><div class="pj-name">Bapak Rahman</div><div class="pj-role">Koordinator lomba</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Pimpin pelaksanaan 8 lomba anak-anak berurutan</li>
+<li>Atur giliran peserta per lomba &amp; pastikan antrian lancar</li>
+<li>Koordinasi juri / penilai di setiap pos lomba</li>
+<li>Rekap pemenang semua cabang untuk pembagian hadiah malam</li>
+<li>Pastikan lomba selesai sebelum sore (target jam 4)</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--purple)">HG</div>
+<div class="pj-meta"><div class="pj-name">Bapak Hugo (A24)</div><div class="pj-role">Seksi acara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Jalankan rundown malam puncak dari awal sampai akhir</li>
+<li>Cue setiap penampilan: tarian → nyanyi → drama/kabaret</li>
+<li>Koordinasi MC &amp; transisi antar sesi</li>
+<li>Atur sesi pembagian hadiah (urutan pengumuman)</li>
+<li>Handle situasi tak terduga (teknis sound, penampilan delay)</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--teal)">AW</div>
+<div class="pj-meta"><div class="pj-name">Tim Perlengkapan</div><div class="pj-role">Bp. Awan, Bp. Rizal, Bp. Agil,&nbsp;<span style="color: rgb(15, 23, 42); font-size: 12.5px;">Mas Joshua</span></div></div>
+</div>
+<ul class="pj-tasks">
+<li>Setup arena lomba pagi-pagi: pos per lomba, properti di tempatnya</li>
+<li>Siapkan &amp; distribusikan properti setiap lomba ke pos masing-masing</li>
+<li>Standby untuk perbaikan teknis (sound, tenda, listrik)</li>
+<li>Bersih-bersih &amp; rapikan area setelah lomba siang selesai</li>
+<li>Pastikan panggung &amp; sound siap untuk malam puncak</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">KN</div>
+<div class="pj-meta"><div class="pj-name">Mama Qori (B10), Mama Andin (C14), Dinda (C27)</div><div class="pj-role">Konsumsi</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Sediakan air minum &amp; snack sepanjang lomba siang</li>
+<li>Siapkan makan siang untuk panitia</li>
+<li>Siapkan konsumsi malam puncak untuk warga</li>
+<li>Distribusi makanan ke penonton malam puncak</li>
+<li>Bersih-bersih area konsumsi setelah acara selesai</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--pink)">HD</div>
+<div class="pj-meta"><div class="pj-name">Tim Hadiah</div><div class="pj-role">Mama Yusuf, Mama Raisha, Mama Key, Mama Nayla</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Siapkan semua hadiah di backstage sebelum malam puncak</li>
+<li>Urutkan hadiah per cabang sesuai daftar pemenang dari Bp. Rahman</li>
+<li>Serahkan hadiah ke panggung saat nama dipanggil</li>
+<li>Distribusi doorprize / hadiah hiburan</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--gold)">RZ</div>
+<div class="pj-meta"><div class="pj-name">Bapak Rizal (A18)</div><div class="pj-role">Bendahara</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Handle pembayaran terakhir (sewa sound, konsumsi, dll)</li>
+<li>Kumpulkan semua struk pengeluaran hari H</li>
+<li>Siapkan laporan keuangan akhir (H+3 setelah acara)</li>
+<li>Presentasikan laporan keuangan ke warga (transparansi)</li>
+</ul>
+</div>
+
+<div class="pj-card">
+<div class="pj-card-head">
+<div class="pj-avatar" style="background:var(--green)">CF</div>
+<div class="pj-meta"><div class="pj-name">Bapak Cecep (C32)</div><div class="pj-role">Sekretaris</div></div>
+</div>
+<ul class="pj-tasks">
+<li>Dokumentasi tertulis jalannya acara (laporan akhir)</li>
+<li>Catat feedback &amp; masukan warga untuk tahun depan</li>
+<li>Arsipkan semua dokumen, foto, dan laporan</li>
+<li>Kirim ucapan terima kasih ke grup warga</li>
+</ul>
+</div>
+
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ============ VERTICAL TIMELINE ============ -->
+<section id="timeline" class="dl-section" style="background:var(--slate-50)">
+<div class="container">
+<div class="section-head-row">
+<div>
+<div class="section-tag">Timeline</div>
+<div class="section-title">Jadwal per tanggal</div>
+<p class="section-desc">Peta perjalanan dari hari pertama sampai puncak kemerdekaan.</p>
+</div>
+<button class="dl-btn" data-target="timeline-capture">⬇ Download Gambar</button>
+</div>
+
+<div class="vtl" id="timeline-capture">
+<div class="vtl-line"></div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--blue);color:var(--blue)"></div>
+<span class="vtl-date-badge" style="background:var(--blue-50);color:var(--blue)">Sab, 1 Agt</span>
+<div class="vtl-phase-title">Rapat perdana</div>
+<div class="vtl-phase-sub">Kick-off panitia</div>
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:var(--blue)">📋 Agenda</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>✦</span> Pembagian tugas &amp; PJ</div>
+<div class="vtl-item"><span>✦</span> Pembahasan konsep &amp; rangkaian acara</div>
+<div class="vtl-item"><span>✦</span> Penentuan jadwal lomba dewasa</div>
+</div>
+</div>
+</div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--blue);color:var(--blue)"></div>
+<span class="vtl-date-badge" style="background:var(--blue-50);color:var(--blue)">Min – Jum, 2 – 7 Agt</span>
+<div class="vtl-phase-title">Persiapan &amp; administrasi</div>
+<div class="vtl-phase-sub">Iuran, pendaftaran, survei, belanja awal</div>
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:var(--blue)">⚙️ Persiapan</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>✦</span> Pengumpulan iuran warga</div>
+<div class="vtl-item"><span>✦</span> Pendaftaran lomba dewasa &amp; futsal anak</div>
+<div class="vtl-item"><span>✦</span> Survei &amp; booking sound system</div>
+<div class="vtl-item"><span>✦</span> Belanja hadiah tahap 1</div>
+<div class="vtl-item"><span>✦</span> Setup lapangan</div>
+</div>
+</div>
+</div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--coral);color:var(--coral)"></div>
+<span class="vtl-date-badge" style="background:var(--coral-100);color:var(--coral)">Sab – Min, 8 – 9 Agt</span>
+<div class="vtl-phase-title">Lomba dewasa &amp; futsal anak</div>
+<div class="vtl-phase-sub">Akhir pekan kompetisi</div>
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:var(--coral)">🏸 Pertandingan</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>🏸</span> Badminton — Bp. Dwi</div>
+<div class="vtl-item"><span>🎯</span> Gapleh — Bp. Hadi</div>
+<div class="vtl-item"><span>🏐</span> Voli — Bp. Dwi</div>
+<div class="vtl-item"><span>⚽</span> Futsal anak — Bp. Hadi</div>
+</div>
+</div>
+</div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--green);color:var(--green)"></div>
+<span class="vtl-date-badge" style="background:var(--green-50);color:var(--green)">Sen – Jum, 10 – 14 Agt</span>
+<div class="vtl-phase-title">Latihan &amp; persiapan puncak</div>
+<div class="vtl-phase-sub">Latihan penampilan, belanja properti, bungkus hadiah</div>
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:var(--green)">🎭 Behind the scene</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>💃</span> Latihan tarian, nyanyi, drama/kabaret</div>
+<div class="vtl-item"><span>📖</span> Latihan penampilan pengajian anak</div>
+<div class="vtl-item"><span>📦</span> Belanja properti lomba 17-an</div>
+<div class="vtl-item"><span>🎁</span> Bungkus hadiah &amp; siapkan piala</div>
+<div class="vtl-item"><span>🍽️</span> Koordinasi konsumsi &amp; hitung porsi</div>
+</div>
+</div>
+</div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--purple);color:var(--purple)"></div>
+<span class="vtl-date-badge" style="background:var(--purple-50);color:var(--purple)">Sab, 15 Agt</span>
+<div class="vtl-phase-title">Dekorasi &amp; gladi resik</div>
+<div class="vtl-phase-sub">Krismaya bersolek merah putih</div>
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:var(--purple)">🎨 D-Day minus 2</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>🇮🇩</span> Pasang umbul-umbul &amp; bendera</div>
+<div class="vtl-item"><span>🎪</span> Bangun panggung &amp; backdrop</div>
+<div class="vtl-item"><span>🔊</span> Setup sound system</div>
+<div class="vtl-item"><span>🎭</span> Gladi resik penampilan anak</div>
+<div class="vtl-item"><span>🛒</span> Belanja bahan konsumsi</div>
+</div>
+</div>
+</div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--teal);color:var(--teal)"></div>
+<span class="vtl-date-badge" style="background:var(--teal-50);color:var(--teal)">Min malam, 16 Agt</span>
+<div class="vtl-phase-title">Malam renungan kemerdekaan</div>
+<div class="vtl-phase-sub">Khidmat menyambut hari besar</div>
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:var(--teal)">🕌 Renungan</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>1.</span> Sambutan Pak RT</div>
+<div class="vtl-item"><span>2.</span> Ceramah</div>
+<div class="vtl-item"><span>3.</span> Tumpeng bersama</div>
+<div class="vtl-item"><span>4.</span> Penampilan anak pengajian</div><div class="vtl-item">5.&nbsp; &nbsp; Hadrah Ibu-ibu</div>
+</div>
+</div>
+</div>
+
+<div class="vtl-phase">
+<div class="vtl-dot" style="background:var(--red);color:var(--red)"></div>
+<span class="vtl-date-badge" style="background:var(--red-50);color:var(--red);font-size:13px">🇮🇩 Senin, 17 Agustus — Hari Kemerdekaan</span>
+<div class="vtl-phase-title">Puncak perayaan</div>
+<div class="vtl-phase-sub">Lomba dan malam puncak</div>
+
+<div class="vtl-card" style="margin-bottom:12px">
+<div class="vtl-card-header" style="background:var(--red-600)">☀️ Siang — 8 lomba anak</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>1.</span> Bendera dalam botol</div>
+<div class="vtl-item"><span>2.</span> Makan kerupuk</div>
+<div class="vtl-item"><span>3.</span> Joged kursi</div>
+<div class="vtl-item"><span>4.</span> Pensil dalam botol</div>
+<div class="vtl-item"><span>5.</span> Tank kardus</div>
+<div class="vtl-item"><span>6.</span> Koin pepaya</div>
+<div class="vtl-item"><span>7.</span> Estafet tepung (ibu-ibu)</div>
+<div class="vtl-item"><span>8.</span> Kupas pisang (batita)</div>
+</div>
+</div>
+
+<div class="vtl-card">
+<div class="vtl-card-header" style="background:linear-gradient(135deg,var(--red),#991B1B)">🌙 Malam puncak</div>
+<div class="vtl-card-body">
+<div class="vtl-item"><span>1.</span> Sambutan Ketua Panitia</div>
+<div class="vtl-item"><span>2.</span> Tarian anak-anak</div>
+<div class="vtl-item"><span>3.</span> Nyanyi anak-anak</div>
+<div class="vtl-item"><span>4.</span> Drama / Kabaret</div>
+<div class="vtl-divider"></div>
+<div class="vtl-item"><span>🏆</span> <strong>Pembagian hadiah seluruh lomba</strong></div>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<!-- ============ SARAN ============ -->
+<section id="saran" class="dl-section" style="background:var(--slate-50)">
+<div class="container">
+<div class="section-head-row">
+<div>
+<div class="section-tag">Rekomendasi</div>
+<div class="section-title">Hal yang perlu dilengkapi</div>
+<p class="section-desc">Poin-poin yang perlu diperhatikan agar acara berjalan lancar.</p>
+</div>
+<button class="dl-btn" data-target="saran-capture">⬇ Download Gambar</button>
+</div>
+
+<div class="saran-grid" id="saran-capture">
+
+<div class="saran-card">
+<div class="saran-header" style="background:var(--coral)">💰 Keuangan &amp; administrasi</div>
+<div class="saran-body">
+<div class="saran-item"><span class="num" style="background:var(--coral)">1</span> Buat RAB terperinci per pos pengeluaran</div>
+<div class="saran-item"><span class="num" style="background:var(--coral)">2</span> Tentukan besaran iuran &amp; deadline pembayaran</div>
+<div class="saran-item"><span class="num" style="background:var(--coral)">3</span> Siapkan kwitansi &amp; buku kas transparan</div>
+<div class="saran-item"><span class="num" style="background:var(--coral)">4</span> Cari sponsor dari warga pengusaha / toko</div>
+<div class="saran-item"><span class="num" style="background:var(--coral)">5</span> Laporan keuangan akhir yang bisa diakses warga</div>
+</div>
+</div>
+
+<div class="saran-card">
+<div class="saran-header" style="background:var(--red)">🏥 Keamanan &amp; kesehatan</div>
+<div class="saran-body">
+<div class="saran-item"><span class="num" style="background:var(--red)">1</span> Posko P3K: obat merah, perban, minyak angin</div>
+<div class="saran-item"><span class="num" style="background:var(--red)">2</span> Koordinasi keamanan lingkungan saat malam</div>
+<div class="saran-item"><span class="num" style="background:var(--red)">3</span> Atur parkir agar tidak blokir akses darurat</div>
+<div class="saran-item"><span class="num" style="background:var(--red)">4</span> Plan B hujan: tenda cadangan / area indoor</div>
+<div class="saran-item"><span class="num" style="background:var(--red)">5</span> Air minum cukup di area lomba sepanjang hari</div>
+</div>
+</div>
+
+<div class="saran-card">
+<div class="saran-header" style="background:var(--blue)">🎤 Teknis acara</div>
+<div class="saran-body">
+<div class="saran-item"><span class="num" style="background:var(--blue)">1</span> Tunjuk MC per sesi (lomba, renungan, puncak)</div>
+<div class="saran-item"><span class="num" style="background:var(--blue)">2</span> Rundown waktu detail per lomba</div>
+<div class="saran-item"><span class="num" style="background:var(--blue)">3</span> Wasit &amp; juri per cabang lomba dewasa</div>
+<div class="saran-item"><span class="num" style="background:var(--blue)">4</span> Kategori umur lomba anak (batita, TK, SD)</div>
+<div class="saran-item"><span class="num" style="background:var(--blue)">5</span> Piala / medali untuk pemenang</div>
+</div>
+</div>
+
+<div class="saran-card">
+<div class="saran-header" style="background:var(--green)">📸 Dokumentasi &amp; komunikasi</div>
+<div class="saran-body">
+<div class="saran-item"><span class="num" style="background:var(--green)">1</span> Tim dokumentasi foto &amp; video (min. 2 orang)</div>
+<div class="saran-item"><span class="num" style="background:var(--green)">2</span> Grup WA khusus panitia</div>
+<div class="saran-item"><span class="num" style="background:var(--green)">3</span> Pamflet jadwal disebar ke semua warga</div>
+<div class="saran-item"><span class="num" style="background:var(--green)">4</span> Spanduk utama &amp; backdrop panggung</div>
+<div class="saran-item"><span class="num" style="background:var(--green)">5</span> Update progres berkala ke grup RT</div>
+</div>
+</div>
+
+<div class="saran-card">
+<div class="saran-header" style="background:var(--purple)">📦 Checklist perlengkapan lomba</div>
+<div class="saran-body">
+<div class="saran-item"><span class="num" style="background:var(--purple)">1</span> Botol + bendera kecil + pensil</div>
+<div class="saran-item"><span class="num" style="background:var(--purple)">2</span> Kerupuk + tali + tiang bambu</div>
+<div class="saran-item"><span class="num" style="background:var(--purple)">3</span> Kursi lipat 10–15 buah + speaker musik</div>
+<div class="saran-item"><span class="num" style="background:var(--purple)">4</span> Kardus besar kuat (1 per peserta/tim)</div>
+<div class="saran-item"><span class="num" style="background:var(--purple)">5</span> Pepaya + koin logam</div>
+<div class="saran-item"><span class="num" style="background:var(--purple)">6</span> Tepung, baskom, sendok, wadah estafet</div>
+<div class="saran-item"><span class="num" style="background:var(--purple)">7</span> Pisang matang untuk lomba batita</div>
+</div>
+</div>
+
+<div class="saran-card">
+<div class="saran-header" style="background:var(--teal)">📋 Perizinan &amp; koordinasi</div>
+<div class="saran-body">
+<div class="saran-item"><span class="num" style="background:var(--teal)">1</span> Izin area dari pengelola cluster</div>
+<div class="saran-item"><span class="num" style="background:var(--teal)">2</span> Koordinasi dengan RT/RW</div>
+<div class="saran-item"><span class="num" style="background:var(--teal)">3</span> Izin keramaian (acara malam)</div>
+<div class="saran-item"><span class="num" style="background:var(--teal)">4</span> Konfirmasi penceramah malam renungan</div>
+<div class="saran-item"><span class="num" style="background:var(--teal)">5</span> Hitung porsi tumpeng (estimasi warga hadir)</div>
+<div class="saran-item"><span class="num" style="background:var(--teal)">6</span> Tim kebersihan sebelum &amp; sesudah acara</div>
+</div>
+</div>
+
+</div>
+</div>
+</section>
+
+<footer>
+<div class="brand">Krismaya Premiere</div>
+<p>Dirgahayu Republik Indonesia ke-81 · 17 Agustus 2026</p>
+<p style="margin-top:8px;font-size:11px;color:var(--slate-500)">Dokumen perencanaan panitia Agustusan</p>
+</footer>
+
+<script>
+document.querySelectorAll('.dl-btn').forEach(function(btn){
+  btn.addEventListener('click', function(){
+    var targetId = btn.getAttribute('data-target');
+    var el = document.getElementById(targetId);
+    if(!el || !window.html2canvas) return;
+    var originalText = btn.textContent;
+    btn.textContent = 'Memproses...';
+    btn.disabled = true;
+    html2canvas(el, {backgroundColor:'#ffffff', scale:2, useCORS:true}).then(function(canvas){
+      var link = document.createElement('a');
+      link.download = targetId.replace('-capture','') + '.png';
+      link.href = canvas.toDataURL('image/png');
+      link.click();
+      btn.textContent = originalText;
+      btn.disabled = false;
+    }).catch(function(err){
+      console.error('Gagal membuat gambar:', err);
+      btn.textContent = originalText;
+      btn.disabled = false;
+    });
+  });
+});
+</script>
+
+</body></html>
